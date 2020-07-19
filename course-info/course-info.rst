@@ -17,3 +17,5 @@ Instructor
 
 Course website
 --------------
+
+https://computationalphysics.rtfd.io/
