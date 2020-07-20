@@ -79,6 +79,7 @@ to change*
     :caption: Lesson 1
 
     lessons/L1/overview
+    lessons/L1/linux
 
 
 
