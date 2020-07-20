@@ -37,8 +37,11 @@ nbsphinx_execute = 'never'
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
+html_context = {
+    'css_files': ['_static/computationalphysics.css'],
+}
 # List of patterns, relative to source directory, that match files and
-# directories to ignore when looking for source files.
+# directories cssto ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store',
@@ -55,12 +58,18 @@ html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 
 html_theme = 'sphinx_rtd_theme'
 
 html_theme_options = {
-    "collapse_navigation" : False
+    "collapse_navigation" : False,
+   'style_nav_header_background': '#0e6223',
+    # 'style_nav_header_background': 'white',
+
 }
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+html_css_files = [
+    'css/computationalphysics.css',
+]
 
 html_context = {
     # Enable the "Edit in GitHub link within the header of each page.
