@@ -5,8 +5,22 @@
 
 .wy-menu-vertical header, .wy-menu-vertical p.caption {
   color:#06af30;
+  /* color:#0E624D; */
 }
 
 a {
   color:#06af30;
+
+}
+
+.rst-content code.literal {
+  color:#230E62;
+}
+
+.rst-content pre {
+  color:#230E62;
+}
+
+.highlight .o {
+  color:#230E62;
 }
