@@ -88,8 +88,10 @@ to change*
     :maxdepth: 2
     :caption: Lesson 2
 
-    lessons/L1/overview
-    lessons/L1/filesystem
+    lessons/L2/overview
+    lessons/L2/filesystem
+    lessons/L2/shortcuts
+    lessons/L2/shell
 
 
 
