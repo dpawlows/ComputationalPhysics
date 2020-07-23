@@ -35,3 +35,9 @@ this course.
 * **Module**: Software that is not part of the
   base python distribution that needs to be
   imported before it can be used.
+* **cwd**: Current working directory
+* **Command line**: The terminal prompt
+* **Filepath**: The location of a file within the filesystem.
+* **root** (user): The superuser of the system. Capable
+  of modifying any file on the computer.
+* **root** (directory): The lowest level in the filesystem. Literally /.

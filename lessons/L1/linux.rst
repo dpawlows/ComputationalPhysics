@@ -90,7 +90,7 @@ to get you started with using the Terminal so that you can use it
 as an interface to access the true power of your computer.
 
 A note on Windows
-=================
+-----------------
 
 You'll note that the Windows operating system was
 not mentioned in any examples above. Windows is not
@@ -119,7 +119,7 @@ in this course, you should also learn to
 use the Powershell.
 
 Linux vs. Windows
-=================
+-----------------
 
 None of this is to say that Windows machines are inferior
 to Linux computers. Rather, they were initially designed

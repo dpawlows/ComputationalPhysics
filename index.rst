@@ -80,7 +80,16 @@ to change*
 
     lessons/L1/overview
     lessons/L1/linux
+    lessons/L1/terminal
+    lessons/L1/remote
+    lessons/L1/commands1
 
+.. toctree::
+    :maxdepth: 2
+    :caption: Lesson 2
+
+    lessons/L1/overview
+    lessons/L1/filesystem
 
 
 
