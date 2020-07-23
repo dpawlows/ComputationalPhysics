@@ -32,7 +32,7 @@ When you first login to a Linux system, the directory that you are accessing wil
 **home directory**. The home directory has the same name as your user name, and it is
 where all of your personal files and subdirectories will reside. You will be able to create,
 remove, or move files and directories in you home directory, but you will not be able to
-do so in any directories lower in the file hierarchy (more on this later).
+do so in any directories higher in the file hierarchy (more on this later).
 
 Lets start doing
 a few things in your home directory.
@@ -72,11 +72,11 @@ Another useful flag for ls is **-a**::
 This will show any “hidden” files. A file may be hidden in Linux by having the first
 character of the filename start with '..' You will notice that there are 2 strange files
 ’ . ’ and ’ .. ’ . The directory, ’ . ’ is Linux for "the directory that you are currently in", while ' .. ' is Linux for the
-directory one level down in the hierarchy. So, for example you could execute:
+directory one level up in the hierarchy. So, for example you could execute:
 ``>> ls -a .``
 and you would see the contents of your cwd, exactly the same as ls -a. Or, you could do:
 ``>> ls -a ..``
-to see the contents of the directory one level down.
+to see the contents of the directory one level up.
 
 In the last two examples, ' . ' and ' .. ' were arguments provided to the ls command. I
 could replace the either of those with another directory to see its contents. Also, you can
@@ -100,7 +100,7 @@ directory, you can change to Documents using::
   >> cd Documents
 
 Now you can do an *ls* to see the contents, if there are any. To get back to your home
-directory, which is one level down in the hierarchy, you do::
+directory, which is one level up in the hierarchy, you do::
 
   >> cd ..
 
