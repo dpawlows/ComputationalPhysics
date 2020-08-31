@@ -1,5 +1,5 @@
-Basic Linux commands
-====================
+Basic Linux Commands 1
+======================
 
 In order to work with a Linux based operating system, you have to become familiar with
 Linux commands. There are many, and throughout this course you will become familiar

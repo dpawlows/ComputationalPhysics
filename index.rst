@@ -92,6 +92,7 @@ to change*
     lessons/L2/filesystem
     lessons/L2/shortcuts
     lessons/L2/shell
+    lessons/L2/commands
 
 
 
