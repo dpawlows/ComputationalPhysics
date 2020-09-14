@@ -1,27 +1,24 @@
 Lesson Overview
 ===============
 
-In this first lesson, we will focus on learning how to
-run Python using the Anaconda distribution. For most of you
-this will be your first experience working with
-Python, so we will start with the basics. The first
-tutorial will walk you through the Anaconda development
-environment and how to use the tools built in to the
-integrated development environment (IDE).
+This week, we we will continue learning about Linux
+usage. This includes some discussion of the linux
+filesystem, more details on the shell, the basics
+of shortcuts in linux, and more commands.
 
-The main components of the first lesson are:
+Specifically, you will learn about:
 
-.. 1. :doc:`learn how to work with a widely used python distribution <anaconda-intro>`
-.. 2. `understand some basic components of programming with python and python syntax <first.ipynb>`
-.. 3. `start learning the basics of good coding practices <coding.ipynb>`
+.. 1. :doc:`the linux filesystem <filesystem>`
+.. 2. :doc:`shortcuts that are used in the Terminal and in programming in general <shortcuts>`
+.. 3. :doc:`more information about the shell and some of its attributes <shell>`
+.. 4. :doc:`additional fundamental linux commands <commands>`
 
 Learning Goals
 --------------
 
 After this week you should be able to:
 
-  - navigate the Anaconda IDE
-  - define and use variables
-  - describe the concept of a data type
-  - determine the data type of a variable in Python
-  - print a message to the screen and get input from the user
+  - navigate the linux filesystem and figure out where useful files are located.
+  - use a variety of shortcuts to help work with large subsets of files.
+  - understand the concept of the shell and some key usage features.
+  - do more work in the Terminal with additional key commands.

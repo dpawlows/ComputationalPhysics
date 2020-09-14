@@ -87,15 +87,15 @@ to change*
     lessons/L1/remote
     lessons/L1/commands1
 
-.. .. toctree::
-..     :maxdepth: 2
-..     :caption: Lesson 2
-..
-..     lessons/L2/overview
-..     lessons/L2/filesystem
-..     lessons/L2/shortcuts
-..     lessons/L2/shell
-..     lessons/L2/commands
+.. toctree::
+    :maxdepth: 2
+    :caption: Lesson 2
+
+    lessons/L2/overview
+    lessons/L2/filesystem
+    lessons/L2/shortcuts
+    lessons/L2/shell
+    lessons/L2/commands
 
 
 

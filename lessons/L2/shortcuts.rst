@@ -37,7 +37,7 @@ way to bounce back and forth between two locations in your
 filesystem.
 
 Now, let's say you wanted to go to your Documents directory. You could cd to your home
-directory, then cd again to Documents. Or you could enter the full absolute path, */Users/dpawlows/Documents/*
+directory, then cd again to Documents. Or you could enter the full absolute path, */Users/dpawlows/Documents/*.
 But, the easiest way is to do this is to use
 ::
 
