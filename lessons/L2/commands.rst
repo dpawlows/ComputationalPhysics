@@ -152,13 +152,17 @@ knowing the basics is usually enough to make quick work of examining a
 dataset. Let's say you have the following data in a file
 called fruit.dat:
 
-=====     ====      ====
-Banana    5.2       1001
-Apple     32.1      1002
-Pear      101.8     1003
-Grape     7.5       1004
-Melon     47.2      1005
-=====     ====      ====
++-------+----------+-----+
+|Banana |   5.2    | 1001|
++-------+----------+-----+
+|Apple  |   32.1   | 1002|
++-------+----------+-----+
+|Pear   |   101.8  | 1003|
++-------+----------+-----+
+|Grape  |   7.5    | 1004|
++-------+----------+-----+
+|Melon  |  47.2    | 1005|
++-------+----------+-----+
 
 We can quickly sort the data using sort::
 
