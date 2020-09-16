@@ -143,6 +143,51 @@ file is, but remember a specific word or phrase contained in it.
 Depending on how you use this, it can take a very long time and search a lot of stuff.
 For this reason, the *locate* command can be better, if it is available.
 
+Sort
+^^^^
+
+The sort command is a easy to use utility that can quickly sort data that
+is stored in a file in a table format. Sort is pretty powerful, but
+knowing the basics is usually enough to make quick work of examining a
+dataset. Let's say you have the following data in a file
+called fruit.dat:
+
+=====     ====      ====
+Banana    5.2       1001
+Apple     32.1      1002
+Pear      101.8     1003
+Grape     7.5       1004
+Melon     47.2      1005
+=====     ====      ====
+
+We can quickly sort the data using sort::
+
+  >> sort fruit.dat
+
+You should see the data has been sorted by the first
+column in the file. Easy enough. However, there are a
+couple flags that are needed to really use sort. First,
+what if we want to sort based on the 2nd column?::
+
+  >> sort -k2 fruit.dat
+
+Note that something happened here, but maybe not what
+was expected. Sort treats all data in a file the same,
+as a character string. So in this example, sort looked at the data
+an put the string that started with a "1" first. But most likely
+we want that data to be sorted as if column 2 was numerical
+data. To do that, we need another flag::
+
+  >> sort -nk2 fruit.dat
+
+That should give the expected result, with the banana
+row at the top of the output and Pear at the bottom.
+
+Don't forget that it can be useful to combine a sort
+with redirection to send the output to a new file::
+
+  >> sort -nk2 fruit.dat > fruitsorted.dat
+
 Linking files
 ^^^^^^^^^^^^^
 
