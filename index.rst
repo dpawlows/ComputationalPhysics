@@ -97,7 +97,12 @@ to change*
     lessons/L2/shell
     lessons/L2/commands
 
+.. toctree::
+    :maxdepth: 2
+    :caption: Lesson 3
 
+    lessons/L3/emacs
+    
 
 
 Indices and tables
