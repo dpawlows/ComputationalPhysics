@@ -104,7 +104,8 @@ to change*
     lessons/L3/overview
     lessons/L3/emacs
     lessons/L3/permissions
-    lessons/L3/scripts.rst
+    lessons/L3/scripts
+    lessons/L3/startup
 
 
 Indices and tables

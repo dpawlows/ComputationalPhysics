@@ -10,9 +10,10 @@ so that you can actually run your scripts.
 
 Specifically, you will learn about:
 
-.. 1. :doc:`the EMACS text editor <emacs>`
-.. 2. :doc:`file permissions and how to modify them <permissions>`
-.. 3. :doc:`the basics of shell scripting <scripts>`
+1. :doc:`the EMACS text editor <emacs>`
+2. :doc:`file permissions and how to modify them <permissions>`
+3. :doc:`the basics of shell scripting <scripts>`
+4. :doc:`startup files <startup>`
 
 
 Learning Goals
@@ -24,3 +25,4 @@ After this week you should be able to:
   - Determine the permissions for your files for the owner, group and other users.
   - Modify file permissions.
   - Write basic bash scripts and execute them.
+  - Modify your bash startup file to set some aliases and modify other shell features.
