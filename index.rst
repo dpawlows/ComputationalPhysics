@@ -101,8 +101,10 @@ to change*
     :maxdepth: 2
     :caption: Lesson 3
 
+    lessons/L3/overview
     lessons/L3/emacs
-    
+    lessons/L3/permissions
+    lessons/L3/scripts.rst
 
 
 Indices and tables
