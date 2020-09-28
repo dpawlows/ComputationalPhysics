@@ -97,6 +97,23 @@ to change*
     lessons/L2/shell
     lessons/L2/commands
 
+.. toctree::
+    :maxdepth: 2
+    :caption: Lesson 3
+
+    lessons/L3/overview
+    lessons/L3/emacs
+    lessons/L3/permissions
+    lessons/L3/scripts
+    lessons/L3/startup
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Lesson 4
+
+    .. lessons/L3/overview
+    lessons/L4/commands
+    lessons/L4/scripts
 
 
 
