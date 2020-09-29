@@ -114,6 +114,7 @@ to change*
     .. lessons/L3/overview
     lessons/L4/commands
     lessons/L4/scripts
+    lessons/L4/roots
 
 
 
