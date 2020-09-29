@@ -9,9 +9,9 @@ algebraic equations using a computer.
 
 Specifically, you will learn about:
 
-1. :doc:`more linux commands! <commands>`
-2. :doc:`more shell scripting! <scrips>`
-3. :doc:`root finding techniques <roots>`
+  1. :doc:`more linux commands! <commands>`
+  2. :doc:`more shell scripting! <scripts>`
+  3. :doc:`root finding techniques <roots>`
 
 Learning Goals
 --------------
@@ -22,5 +22,5 @@ After this week you should be able to:
   - write bash scripts that can actually be useful.
   - solve some basic algebraic equations numerically.
   - discuss topics that are important to numerical methods such as
-  round-off error, stopping criteria, iteration, and how numbers are
-  stored on a computer.
+    round-off error, stopping criteria, iteration, and how numbers are
+    stored on a computer.
