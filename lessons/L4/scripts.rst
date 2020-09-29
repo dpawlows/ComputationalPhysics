@@ -1,5 +1,5 @@
-Shell scripting 2
-=================
+More Shell scripting
+====================
 
 In this lesson, we will cover the a few topics that are
 essential to make shell scripting useful.
@@ -28,6 +28,7 @@ entire string. Compare::
   % echo "Hello * I am happy to be here\ Today is a great date"
 
 to
+
 ::
 
   % echo 'Hello * I am happy to be here\ Today is a great date'
@@ -38,6 +39,7 @@ double quotes. Compare::
   % echo "Hi $USER"
 
 to
+
 ::
 
   % echo 'Hi $username'
@@ -136,6 +138,7 @@ Try running this script a few times, starting with::
   % if1.sh
 
 Then, add an argument or two...::
+
   % if1.sh hello!
   % if1.sh hello! how are you?
   % if1.sh hello! “how are you?”

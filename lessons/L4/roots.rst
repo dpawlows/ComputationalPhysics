@@ -13,7 +13,7 @@ until we have obtained a value that is within a certain error tolerance. There a
 methods for doing this. The best methods are ones that ensure convergence and do so with the fewest number of iterations.
 
 So, what is meant by convergence? Given a sequence of approximations to a solution for p:
-:math:`p_0`, :math:`p_1`, :math:`p_2`, :math:`p_3`..., if the solution converges to the answer :math:`p`, then the differences, or errors, :math:`e_n = p_n − p`
+:math:`p_0`, :math:`p_1`, :math:`p_2`, :math:`p_3`,... if the solution converges to the answer :math:`p`, then the differences, or errors, :math:`e_n = p_n − p`
 must get smaller and smaller as n approaches infinity. To put it another way, if we take the ratio
 of successive errors, it should be less than 1. In reality, as we perform more and more iterations,
 then this ratio should approach a non-zero constant that is less than 1:
@@ -54,7 +54,7 @@ For which the standard solution can be applied:
 
 .. math::
 
-  x = \frac{−b \pm \sqrt{b^2 − 4ac}{2a}.
+  x = \frac{−b \pm \sqrt{b^2 − 4ac}}{2a}.
 
 Certainly this equation should produce the correct solution, and in fact there is no need to
 perform any sort of iteration. However, in general introducing a computer into the solution

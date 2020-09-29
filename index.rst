@@ -111,7 +111,7 @@ to change*
     :maxdepth: 2
     :caption: Lesson 4
 
-    .. lessons/L3/overview
+    lessons/L4/overview
     lessons/L4/commands
     lessons/L4/scripts
     lessons/L4/roots
