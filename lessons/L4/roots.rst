@@ -2,8 +2,8 @@ Root Finding
 ============
 
 A common problem in scientific computing is to find the solutions, or roots, of some equation
-.. math::
 
+.. math::
   f(x) = 0
 
 in a single variable x. Numerical techniques are useful because we aren’t required to come up
