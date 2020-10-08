@@ -76,6 +76,7 @@ to change*
     course-info/installingPython
     course-info/learningObjectives
     course-info/vocabulary
+    course-info/filetransfer
 
 .. toctree::
     :maxdepth: 2
@@ -100,7 +101,7 @@ to change*
 .. toctree::
     :maxdepth: 2
     :caption: Lesson 3
-    
+
     lessons/L3/overview
     lessons/L3/emacs
     lessons/L3/permissions
