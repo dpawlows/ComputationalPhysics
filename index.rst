@@ -117,6 +117,12 @@ to change*
     lessons/L4/scripts
     lessons/L4/roots
 
+.. toctree::
+    :maxdepth: 2
+    :caption: Lesson 5
+
+    lessons/L5/overview
+    lessons/L5/derivatives
 
 
 Indices and tables
