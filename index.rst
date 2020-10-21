@@ -122,6 +122,7 @@ to change*
     :caption: Lesson 5
 
     lessons/L5/overview
+    lessons/L5/input
     lessons/L5/derivatives
 
 
