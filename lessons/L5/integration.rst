@@ -96,7 +96,7 @@ when implementing the rectangular rule. An alternative then, is instead
 of breaking the domain up into rectangles, use trapezoids!
 
 .. figure:: images/trap.png
-  :width: 400px
+  :width: 200px
   :alt: trapezoid
   :align: center
 
