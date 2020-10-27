@@ -124,6 +124,7 @@ to change*
     lessons/L5/overview
     lessons/L5/input
     lessons/L5/derivatives
+    lessons/L5/integration
 
 
 Indices and tables
