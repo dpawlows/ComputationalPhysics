@@ -72,11 +72,12 @@ rectangular rule. Once we set up a grid (:math:`x_0, x_1, x_2, \dots x_n`)
 and evaluate our function at each point on the grid, it is easy to
 calculate the area of each rectangle and sum to get the integral. E.g.
 we can approximate the integral using the points on the left side
-of our rectangle using::
+of our rectangle using:
 
 .. math::
 
-  I = \sum_{i=0}^{n-1}f(x_i)h
+  I=\sum_{i=0}^{n-1}f(x_i)h
+
 
 A common adaptation to the rectangle rule is to use the midpoints of
 our grid as the point at which to evaluate the "height" of our function.
