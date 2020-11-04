@@ -124,7 +124,7 @@ our documents by adding Latex packages. This is done via the
 `\\usepackage{}` command. This command takes at least one required
 argument, the name of the package that you want to import. Standard latex
 distributions come with many, many packages that you may find useful. Among
-those, you will probably use the *amsmath*, *graphics* and *natbib* packages
+those, you will probably use the *amsmath*, *graphicx* and *natbib* packages
 regularly. In order to use them, you must include them with the `\\usepackage`
 command in the preamble.
 
@@ -511,14 +511,14 @@ Figures
 -------
 
 The use of figures is much the same as tables from Latex’s point of view. The only
-difference is that Latex alone isn’t capable of handling and interpreting graphics files without the use of additional packages. I’ve mentioned one of the most widely used packages already: ``graphics``. You tell Latex that you want to use this pack-
-ages by including it in the Latex document preamble like so: ``\usepackage{graphics}``. The graphics packages can handle almost any type
+difference is that Latex alone isn’t capable of handling and interpreting graphics files without the use of additional packages. I’ve mentioned one of the most widely used packages already: ``graphicx``. You tell Latex that you want to use this pack-
+ages by including it in the Latex document preamble like so: ``\usepackage{graphicx}``. The graphicx packages can handle almost any type
 of image, i.e., pdf, jpg, bmp, png, etc. One notable exception is
 ps, or postscript files. These are commonly produced on unix-like systems. There are
 a variety of unix tools available that will convert ps to other standard file types
-such as imagemagick (a common unix utilities)
+such as imagemagick (a common unix utility).
 
-So, here we’ll just focus on the use of graphics. Again, when you use a figure, Latex wants
+Again, when you use a figure, Latex wants
 to create a float object. This is accomplished using the figure environment::
 
   \begin{figure}[htp]
@@ -529,4 +529,4 @@ to create a float object. This is accomplished using the figure environment::
   \end{figure}
 
 The ``\includegraphics`` command has several optional arguments that
-are useful, particularly those dealing with size like width and height. 
+are useful, particularly those dealing with size like width and height.
