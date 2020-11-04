@@ -1,5 +1,5 @@
-Latex
-=====
+Latex Basics
+============
 
 Latex is a document preparation system for high-quality typesetting. It is used by a large
 to create documents by a large part of the scientific community
@@ -158,6 +158,8 @@ Latex has several levels of sectioning that make it easy to structure your docum
       \subsubsection{subsubsection name}
 
 The title of each section goes in the braces. Latex will automatically number your sections, and there are options for different number schemes.
+
+
 
 Font Styles
 -----------
@@ -452,18 +454,17 @@ the following:
 
   The same positioning arguments are used for figures as well, as you will see later.
 
-  Latex tries to put the table (or figure) where you want it, but it does have some guidelines
-  that it also tries to obey. For one, Latex really wants the floats to be either at the top or
-  bottom of the page. This means that the float is never sandwiched by the text. Latex
-  will really struggle with positioning if you have several floats very close together in the
-  text. In some cases, they may overlap or run into one another, so it becomes sort an art
-  to space things properly.
+Latex tries to put the table (or figure) where you want it, but it does have some guidelines
+that it also tries to obey. For one, Latex really wants the floats to be either at the top or
+bottom of the page. This means that the float is never sandwiched by the text. Latex
+will really struggle with positioning if you have several floats very close together in the
+text. In some cases, they may overlap or run into one another, so it becomes sort an art
+to space things properly.
 
-  .. note::
-
-    Don't worry to much about the position
-    of a float! Let Latex do what it wants even if the float comes on a different
-    page than the text that is referencing it!
+.. note::
+  Don't worry to much about the position
+  of a float! Let Latex do what it wants even if the float comes on a different
+  page than the text that is referencing it!
 
 Labels and Cross-referencing
 ----------------------------
@@ -507,6 +508,19 @@ will not be counted (again, you should always use floating tables).
 
   When referencing floats, the label should always come after the caption, if there is one. Otherwise the numbering will be wrong if you reference the object!!!!
 
+Cross-referencing in this way (defining a label and using it with \\ref{})
+can be used on tables, figures, equations, and sections. For example::
+
+  \section{Introduction}
+  \label{intro}
+
+By assigning a label to the Introduction section, I can then reference the
+section using the ``\ref{}`` command: "For background information see Section
+\\ref{intro}". Not that the label that I used (intro) is totally up to me
+and can be anything I want. Then, I use that text string as the argument
+to the \\ref{} command.
+
+
 Figures
 -------
 
@@ -529,4 +543,6 @@ to create a float object. This is accomplished using the figure environment::
   \end{figure}
 
 The ``\includegraphics`` command has several optional arguments that
-are useful, particularly those dealing with size like width and height.
+are useful, particularly those dealing with size like width and height. As
+with tables and sections, we can reference the figure using the
+``\ref{}`` command: e.g. "See Figure \\ref{flare}."

@@ -8,18 +8,19 @@ that are publication quality.
 
 Specifically, you will learn about:
 
-  .. 1. :doc:`python input and output <input>`
-  .. 2. :doc:`numerical differentiation <derivatives>`
-  .. 3. numerical integration
+  1. :doc:`The basics of Latex <latex>`
+  2. :doc:`Referencing with Bibtex <bibtex>`
 
 Learning Goals
 --------------
 
 After this week you should be able to:
 
-  - use a Taylor series to develop a numerical differentiation scheme.
-  - understand the consequences of truncation error.
-  - understand the difference between first and second order numerical schemes.
-  - implement a numerical differentiation scheme.
-  - implement a numerical integration scheme.
-  - read from and write to a file from within python.
+  - Use Latex to create professional documents
+  - Understand basic Latex syntax
+  - Include complex elements such as figures, lists and tables in your documents.
+  - Incorporate simple and complex mathematics in your documents.
+  - Use self-consistent cross-referencing within Latex to reference different document elements.
+  - Create a bibtex database and link it to your latex document to enable consistent citations and referencing.
+
+  

@@ -35,8 +35,8 @@ schedule:
 | 5         | Numerical differentiation      |
 |           | and Integration                |
 +-----------+--------------------------------+
-| 6         | Latex                          |
-|           |                                |
+| 6         | Latex ;                        |
+|           | Bibtex                         |
 +-----------+--------------------------------+
 | 7         |                                |
 |           |                                |
@@ -133,8 +133,8 @@ to change*
 
     lessons/L6/overview
     lessons/L6/latex
-    .. lessons/L5/derivatives
-    .. lessons/L5/integration
+    lessons/L6/bibtex
+
 
 
 Indices and tables
