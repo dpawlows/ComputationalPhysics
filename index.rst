@@ -2,7 +2,7 @@
 Welcome to Phy380!
 ===================
 
-Our goal in Computational Physics is to develop the
+There are a few Latex syntax guidelines worth remembering:Our goal in Computational Physics is to develop the
 skills necessary to use computers to solve physics problems. You
 will take the tools that you learned in Phy280 and apply them to
 a variety of physical systems to learn about algorithm development,
@@ -32,9 +32,10 @@ schedule:
 | 4         | Root finding techniques        |
 |           |                                |
 +-----------+--------------------------------+
-| 5         | Batch processing files         |
+| 5         | Numerical differentiation      |
+|           | and Integration                |
 +-----------+--------------------------------+
-| 6         | Numerical differentiation      |
+| 6         | Latex                          |
 |           |                                |
 +-----------+--------------------------------+
 | 7         |                                |
@@ -125,6 +126,15 @@ to change*
     lessons/L5/input
     lessons/L5/derivatives
     lessons/L5/integration
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Lesson 6
+
+    lessons/L6/overview
+    lessons/L6/latex
+    .. lessons/L5/derivatives
+    .. lessons/L5/integration
 
 
 Indices and tables
