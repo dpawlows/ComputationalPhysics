@@ -38,7 +38,7 @@ schedule:
 | 6         | Latex ;                        |
 |           | Bibtex                         |
 +-----------+--------------------------------+
-| 7         |                                |
+| 7         | Ordinary Differential Equations|
 |           |                                |
 +-----------+--------------------------------+
 | 8         |                                |
@@ -135,7 +135,13 @@ to change*
     lessons/L6/latex
     lessons/L6/bibtex
 
+.. toctree::
+    :maxdepth: 2
+    :caption: Lesson 7
 
+    lessons/L7/overview
+    lessons/L7/odes
+    .. lessons/L6/bibtex
 
 Indices and tables
 ==================
