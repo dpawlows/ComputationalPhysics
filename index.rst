@@ -8,12 +8,10 @@ will take the tools that you learned in Phy280 and apply them to
 a variety of physical systems to learn about algorithm development,
 modeling and analysis.
 
-Course topics by week
+Course topics
 ---------------------
 
-Materials will be divided into lessons which will
-be available here every Wednesday morning with the following
-schedule:
+Materials will be divided into lessons as follows:
 
 +-----------+--------------------------------+
 | Lesson    | Content                        |
@@ -41,23 +39,23 @@ schedule:
 | 7         | Ordinary Differential Equations|
 |           |                                |
 +-----------+--------------------------------+
-| 8         |                                |
+| 8         | Project                        |
 |           |                                |
 +-----------+--------------------------------+
-| 9         |                                |
-+-----------+--------------------------------+
-| 10        |                                |
-|           |                                |
-+-----------+--------------------------------+
-| 11        |                                |
-|           |                                |
-+-----------+--------------------------------+
-| 12        | Project                        |
-+-----------+--------------------------------+
-| 13        | Project                        |
-+-----------+--------------------------------+
-| 14        | Project                        |
-+-----------+--------------------------------+
+.. | 9         |                                |
+.. +-----------+--------------------------------+
+.. | 10        |                                |
+.. |           |                                |
+.. +-----------+--------------------------------+
+.. | 11        |                                |
+.. |           |                                |
+.. +-----------+--------------------------------+
+.. | 12        | Project                        |
+.. +-----------+--------------------------------+
+.. | 13        | Project                        |
+.. .. +-----------+--------------------------------+
+.. | 14        | Project                        |
+.. +-----------+--------------------------------+
 
 Contents
 --------
