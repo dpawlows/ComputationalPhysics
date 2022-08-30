@@ -130,9 +130,8 @@ as many choose Linux. My belief is that the Linux
 OS offers efficiency benefits to those that perform
 repetitive tasks on their computer and that these benefits
 can lead to a large time savings over the course
-of a project. As such, I personally use a Mac for all of
-my work (you may ask why I do not simply use a pure Linux
-computer and save $$, not sell my soul to Apple, etc. but that is an argument for a different time).
+of a project. I personally use both a Linux computer and a Mac for all of
+my work.
 
 Many developers choose to purchase or build Windows computers
 and then `partition <https://www.computerhope.com/jargon/p/partition.htm#:~:text=When%20referring%20to%20a%20computer,run%20on%20the%20same%20device.>`_
