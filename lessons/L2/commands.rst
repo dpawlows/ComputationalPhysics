@@ -32,7 +32,7 @@ head/tail
 Maybe you don’t need to see the whole text, but you just want to see the first or last few
 lines. Then you’ll want to use the head or tail commands::
 
-  >> more /var/log/system.log
+  >> head /var/log/system.log
 
 will show you the first 10 lines of the linuxsystem.tex file, while
 ::
