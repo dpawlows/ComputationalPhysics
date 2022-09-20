@@ -7,7 +7,7 @@ from being able to store commands in a file and to execute that file multiple
 times. However, remember that for early computers, the only way to interact
 with the machine was via the keyboard. This meant that there needed to
 be software programs that were accessible via the Terminal that could be
-used to write and edit text.
+used to write and exit text.
 
 These **text editors** are fundamentally different than the **word processors** that
 have become ubiquitous. While such software, including Microsoft Word and Google
