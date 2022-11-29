@@ -39,11 +39,11 @@ Materials will be divided into lessons as follows:
 | 7         | Ordinary Differential Equations|
 |           |                                |
 +-----------+--------------------------------+
-| 8         | Project                        |
+| 9         | Laplace's Equation             |
 |           |                                |
 +-----------+--------------------------------+
-.. | 9         |                                |
-.. +-----------+--------------------------------+
+| 10         |   Project                     |
++-----------+--------------------------------+
 .. | 10        |                                |
 .. |           |                                |
 .. +-----------+--------------------------------+
@@ -140,6 +140,13 @@ to change*
     lessons/L7/overview
     lessons/L7/odes
     .. lessons/L6/bibtex
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Lesson 8
+
+    .. lessons/L7/overview
+    lessons/L7/laplace
 
 Indices and tables
 ==================
