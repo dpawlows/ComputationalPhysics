@@ -76,7 +76,7 @@ then we are done.  Jacobi relaxation simply amounts to 'strategically guessing'.
 
 Implementation of Jacobi Relaxation is relatively straight forward.  Setup a grid and start with an initial guess for the 
 value of :math:`V(i,j,k)` on the grid while also including the boundary conditions.  Update :math:`V(i,j,k)` repeatedly for each grid point using
-Eq. \ref{fuller} while simultaneously checking for convergence.  Convergence is achieved when the change to :math:`V(i,j,k)`
+Eq. :eq:`fuller` while simultaneously checking for convergence.  Convergence is achieved when the change to :math:`V(i,j,k)`
 is sufficiently small (based on the problem).
 
 A note about relaxation techniques
