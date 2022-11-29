@@ -18,11 +18,12 @@ or
 
 To solve this equation, we will focus on the use of numerical schemes called relaxation methods.  
 
-To start, it is necessary to discretize the independent variables, x, y, and z.  In other words, we create a grid for which we will determine the potential $V(i,j,k)$, where $i, j, k$ refer to the indices of a particular grid point.  Then, we 
+To start, it is necessary to discretize the independent variables, x, y, and z.  In other words, we create a grid for which we will determine the potential :math:`V(i,j,k)`, where :math:`i, j, k` refer to the indices of a particular grid point.  Then, we 
 need to rewrite the derivatives in Eq. :eq:`laplace` in terms of a finite difference.  We begin with
 
 .. math::
     :label: finite
+
     \frac{\partial V}{\partial x}\approx \frac{V(i+1,j,k)-V(i,j,k)}{\Delta x}
 
 where we have used forward differencing.  We could have just have easily used the backward or central difference.  Note 
@@ -45,9 +46,9 @@ Putting it all together, we have
     \right]\\
     &\approx \frac{V(i+1,j,k)+V(i-1,j,k)-2V(i,j,k)}{(\Delta x)^2} .
 
-This equation says that in order to determine the function at the grid point that we are interested in, $V(i,j,k)$,
-we must know the function at the surrounding grid points $i+1,i-1,$ etc.  In other words, the value of $V$ at a particular
-grid point is the average of $V$ at all the neighboring points.  The solution, $V(x,y,z)$, then is a function that satisfies that 
+This equation says that in order o determine the function at the grid point that we are interested in, :math:`V(i,j,k)`,
+we must know the function at the surrounding grid points :math:`i+1,i-1,` etc.  In other words, the value of :math:`V` at a particular
+grid point is the average of :math:`V` at all the neighboring points.  The solution, :math:`V(x,y,z)`, then is a function that satisfies that 
 condition at all points simultaneously.  
 
 Generalizing this problem to 3-dimensions follows the same steps as above and results in
@@ -60,8 +61,8 @@ Generalizing this problem to 3-dimensions follows the same steps as above and re
 where we have rearranged and solved for the point of interest.  Note that the factor of :math:`\frac{1}{6}`` comes from
 the 3-D geometry.  If this were a 2-D problem, the factor would be :math:`\frac{1}{4}`.  There is an issue here though.  In order to solve this 
 problem, we need to have prior information about the function at all grid points, not just the boundary.  The solution to this
-is to start with a guess of the function.  In many cases, it is sufficient to guess $V=0$ everywhere (except on the boundary).
-  To improve our guess, we evaluate Eq :eq:`fuller` at each point on our grid
+is to start with a guess of the function.  In many cases, it is sufficient to guess :math:`V=0` everywhere (except on the boundary).
+To improve our guess, we evaluate Eq :eq:`fuller` at each point on our grid
 using our initial guess for the function in all terms on the RHS of the equation.  Once we have 
 solved for :math:`(i,j,k)` at all points on our grid, we can repeat the procedure using our updated guess to fill in the 
 RHS.  In that way, we *relax* our initial guess into the solution (to some confidence level) by iterating over the grid,
@@ -81,7 +82,11 @@ is sufficiently small (based on the problem).
 A note about relaxation techniques
 ----------------------------------
 
-The use of relaxation in this way is in many ways similar to taking a time-independent problem and turning it to a time dependent one.  Imagine a toy problem where we know the potential of some 2D region of space at the boundary: $V(0,y) = 1$ and $V(1,y) = -1$.  We wish to find the potential everywhere inside the domain $-1 \le x \le 1$ and $-1 \le y \le 1$.  Jacobi
+The use of relaxation in this way is in many ways similar to taking a time-independent problem and turning 
+it to a time dependent one.  Imagine a toy problem where we know the potential of some 
+2D region of space at the boundary: :math:`V(0,y) = 1` and :math:`V(1,y) = -1`.
+We wish to find the potential everywhere inside the domain :math:`-1 \le x \le 1` and 
+:math:`-1 \le y \le 1`.  Jacobi
 relaxation essentially solves the time dependent problem where at :math:`t<0`, :math:`V = 0` everywhere, then at :math:`t=0` the boundary 
 conditions are suddenly applied (i.e. two conducting walls are held at +/- 1V.).  At exactly :math:`t=0`, the potential is zero
 everywhere except at the walls.  As time evolves, the potential between the walls change to accommodate the boundary 
@@ -93,8 +98,11 @@ but given enough time, the solution relaxes to a steady, unchanging, value.
 Higher-order methods
 --------------------
 
-Generally, Jacobi Relaxation is a very conservative, and thus inefficient, algorithm.  In fact, if a toy 2D problem has $L$ points on each side, then the number of iterations required for a given level of convergence goes as $L^2$.  In other words, 
-if we increase the number of grid points by a factor of 2, then the computational effort is increased by a factor of
+Generally, Jacobi Relaxation is a very conservative, and thus inefficient, algorithm.  
+In fact, if a toy 2D problem has :math:`L` points on each side, then the number of iterations 
+required for a given level of convergence goes as :math:`L^2`.  In other words, 
+if we increase the number of grid points by a factor of 2, then the computational effort is 
+increased by a factor of
 4.  We can get a small amount of improvement by using new information about the function as it becomes available.  For
 example, Jacobi Relaxation for a 2-D problem can be expressed in slightly more detail as:
 

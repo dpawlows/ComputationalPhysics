@@ -44,6 +44,7 @@ Materials will be divided into lessons as follows:
 +-----------+--------------------------------+
 | 10         |   Project                     |
 +-----------+--------------------------------+
+
 .. | 10        |                                |
 .. |           |                                |
 .. +-----------+--------------------------------+
@@ -146,7 +147,7 @@ to change*
     :caption: Lesson 8
 
     .. lessons/L7/overview
-    lessons/L7/laplace
+    lessons/L8/laplace
 
 Indices and tables
 ==================
