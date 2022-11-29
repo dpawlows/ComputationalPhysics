@@ -42,7 +42,8 @@ Materials will be divided into lessons as follows:
 | 9         | Laplace's Equation             |
 |           |                                |
 +-----------+--------------------------------+
-| 10         |   Project                     |
+| 10        | Project                        |
+|           |                                |
 +-----------+--------------------------------+
 
 .. | 10        |                                |
