@@ -80,60 +80,30 @@ SSH using Windows
 -----------------
 
 Only recently has Windows made it possible to use ssh
-to access remote computers via PowerShell. Still, doing
-so can be a bit cumbersome as additional software
-tools must be installed. Instead, historically Windows
-users have opted to use a different SSH client.
-One of the most popular of these is called **PuTTy**
-and it can be downloaded at https://www.chiark.greenend.org.uk/~sgtatham/putty/
-PuTTy doesn’t need to be installed; you just download it and put it somewhere, like the
-desktop or in “Program Files” or something.
-Once downloaded, just double click the icon, shortcut,
-or whatever to open it up.
+to access remote computers via PowerShell. In modern versions of Windows, ssh 
+is included by default and can be used just like described for `Linux/Mac Users`_.
 
-PuTTy gives you access to ssh via a simple GUI.
-One you open PuTTy, you should see the configuration screen.
+SSH keypairs
+------------
 
-.. figure:: images/putty.png
-    :width: 400
-    :align: center
+Modern cybersecurity best practices include shutting off password authentication in favor of using a public/private
+keypair for users that 
+ssh into a remote computer. We will embrace this practice here. I won't go into the details 
+of how public/private keypairs are implemented (see `e.g. here <https://en.wikipedia.org/wiki/Punched_card>`_ or 
+other similar resources online). Essentially, we create a public/private key pair on our "local" computer. Then, we 
+can share the public key with other remote computers that we would like to log in to. When we attempt to log in 
+to such a computer, the remote computer confirms that we are a legitimate user by sending an encrypted message 
+to your local computer than can only be decrypted with the private key. This is done and the unencrypted message 
+is sent back to the remote computer proving that you should be allowed access. 
 
-    The PuTTy configuration screen
+The process is as follows:
+1. Create a public/private key pair using the ``ssh-keygen`` command in the .ssh folder on your local machine.
+2. Transfer the file containing the public key to the remote computer.
+3. Add the public key to the ~/.ssh/authorized_keys file on the remote computer.
+4. Remove the file containing the public key on the remote computer (if desired).
 
-The most important information that you need to specify
-is the Host Name (serenity.emich.edu) and the port (22, the default port for ssh).
-There are all sorts of
-configuration options, but you don't need to deal with any of these unless you want to do exciting things
-like change the color of the terminals that you open and use a specific
-font size and type. As you get the hang of using PuTTy feel free to change these at will. Additionally, you can
-save a session which will allow you to store information
-about a hostname and other configuration options
-for easy use in the future.
+With the two keys in the correct locations on each computer, you should be able to access the 
+remote computer without using a password. The system administrator of the remote computer may require 
+that you use ssh key authentication as part of the login process. 
 
-Once you have a hostname entered, you can click "open" and
-PuTTy will attempt to establish a connection to the
-remote machine. Again, if this is your first time connecting,
-you will get a message about the remote computer
-not being in the known hosts file and you can just say yes,
-you do want to connect. Then, you will be prompted for your
-username and password. If successful, you will be given a
-terminal window which will allow you to enter commands
-and run programs on the remote Linux computer.
-
-SSH in Powershell
-^^^^^^^^^^^^^^^^^
-
-Like I mentioned, it is possible to use ssh via
-PowerShell. There are a variety of ways to make this
-happen. In my opinion, the easiest way is to install
-the OpenSSH Client using a package manager (a utility that
-handles the downloading, installation, and updating of
-software packages so you don't have to). I don't have
-much experience with Windows package managers, but I
-have heard ok things about **Chocolatey**.
-
-You can find instructions for downloading and installing OpenSSH and Chocolatey here: https://medium.com/@haxzie/using-ssh-in-windows-powershell-complete-installation-guide-ae029a9e3615
-
-Once OpenSSH is installed, the ssh command should be
-available to you via PowerShell and it can be
-used just like described for `Linux/Mac Users`_.
+Remember, private keys are *private*: they should never be shared. Public keys may be shared freely.
