@@ -2,7 +2,7 @@
 Welcome to Phy380!
 ===================
 
-There are a few Latex syntax guidelines worth remembering:Our goal in Computational Physics is to develop the
+Our goal in Computational Physics is to develop the
 skills necessary to use computers to solve physics problems. You
 will take the tools that you learned in Phy280 and apply them to
 a variety of physical systems to learn about algorithm development,
